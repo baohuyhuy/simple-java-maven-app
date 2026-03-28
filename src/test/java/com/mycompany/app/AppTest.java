@@ -22,4 +22,11 @@ public class AppTest
         App app = new App();
         assertEquals("Hello World! My name is Huy", app.getMessage());
     }
+
+    @Test
+    public void testAdd() 
+    {
+        App app = new App();
+        assertEquals(5, app.add(2, 3));
+    }
 }
